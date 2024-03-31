@@ -1,5 +1,5 @@
-# @snowdog/vuepress-plugin-pdf-export
-Vuepress plugin for exporting site as PDF
+# @whyun/vuepress-plugin-pdf-export
+Vuepress plugin for exporting site as PDF. Forkend form @snowdog/vuepress-plugin-pdf-export.
 
 ## Features
 - Exports whole Vuepress based page as a single PDF file
@@ -9,6 +9,7 @@ Vuepress plugin for exporting site as PDF
 
 ## Config options
 - `theme` - theme name (default `@vuepress/default`)
+- `filter` - function for filter pages (default `false`)
 - `sorter` - function for changing pages order (default `false`)
 - `outputFileName` - name of output file (default `site.pdf`)
 - `puppeteerLaunchOptions` - [Puppeteer launch options object](https://github.com/puppeteer/puppeteer/blob/v2.1.1/docs/api.md#puppeteerlaunchoptions) (default `{}`)
